@@ -1,0 +1,1274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    width: 80%;
+    height: 50px;
+    position: fixed;
+    top: 10px;
+    left: 50px;
+    z-index: 20;
+    border-bottom: 2px rgba(76, 100, 107, 0.24)solid;
+    border-radius: 10px;
+    border-top: 2px rgba(105, 82, 73, 0.212) solid;
+
+
+}
+
+i {
+    font-size: 40px;
+    margin-top: 5px;
+    color: rgba(57, 72, 88, 0.938);
+}
+
+.list {
+    list-style: none;
+    float: right;
+    font-size: x-large;
+    margin-right: 50px;
+
+}
+
+.list li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 7px;
+    position: relative;
+}
+
+.list li a {
+    text-decoration: none;
+    color: rgba(57, 72, 88, 0.938);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imges/danka-peter-SoC1ex6sI4w-unsplash.jpg);
+    background-size: cover;
+}
+
+.Content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: rgba(57, 72, 88, 0.938);
+}
+
+.Content h2 {
+    font-size: 70px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.Content p {
+    word-spacing: 1px;
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.Content button {
+    width: 110px;
+    height: 45px;
+    border-radius: 30px;
+    border: 0.15px solid;
+    border-color: rgb(117, 156, 148);
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: bold;
+    color: darkslategray;
+    font-weight: 600;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.list li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: rgb(250, 240, 230);
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    transition: 0.3s;
+
+}
+
+.list li a:hover::after {
+    width: 100%;
+}
+.list li a:hover{
+    color: antiquewhite;
+    font-size: 25px;
+}
+/*************************************************************************************************************************** */
+
+.ds1 {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(59, 150, 150, 0.178), rgba(202, 184, 161, 0.144));
+}
+
+.sh1 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: x-large;
+    padding-top: 50px;
+
+}
+
+.sh1 p {
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    background-color: rgba(63, 21, 30, 0.568);
+    border-radius: 10px;
+}
+
+.ds11 {
+    border-bottom: 2.5px rgba(14, 1, 1, 0.26) solid;
+    border-radius: 10px;
+    border-top: 2.5px rgba(14, 1, 1, 0.459) solid;
+    height: 170px;
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(35, 57, 85);
+    position: relative;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.container i {
+    color: rgba(114, 21, 21, 0.705);
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.container a {
+    text-decoration: none;
+    color: rgba(114, 21, 21, 0.904);
+}
+
+.container div {
+    position: relative;
+}
+
+.container div::after {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    width: 0px;
+    height: 0px;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    background-color: rgba(5, 32, 25, 0.445);
+    opacity: 0;
+    transition: 0.8s;
+
+
+}
+
+.container div:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.container div:hover {
+    color: rgb(250, 249, 247);
+
+}
+
+.container a:hover {
+    color: #000;
+}
+
+
+
+/******************************************************************************************************************* */
+
+.ds2 {
+    height: 1250px;
+    width: 100%;
+    background: rgba(202, 184, 161, 0.144);
+}
+
+.sh2 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: x-large;
+
+}
+
+.sh2 p {
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    background-color: rgba(63, 21, 30, 0.568);
+    border-radius: 10px;
+}
+
+.container2 {
+    height: 1250px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.item1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 500px;
+    width: 600px;
+    position: relative;
+    float: left;
+     
+
+}
+
+.item1 img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    border-radius: 20px;
+    
+
+}
+
+.layer-content {
+    background-color: rgba(5, 32, 25, 0.445);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    color: linen;
+    border-radius: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s;
+
+
+}
+
+.category {
+    margin-top: 100px;
+}
+
+.item1 i {
+    color: linen;
+}
+
+.item1:hover .layer-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*********************************************************************************************************************/
+.ds3 {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 600px;
+    background: rgba(202, 184, 161, 0.144);
+
+}
+
+.container3 {
+
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    overflow: auto;
+    padding-top: 20px;
+    position: relative;
+}
+
+.sh3 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: x-large;
+
+}
+
+.sh3 p {
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    background-color: rgba(63, 21, 30, 0.568);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.itm1 {
+    margin-top: 60px;
+    margin-left: 50px;
+    border-bottom: 2.5px rgba(14, 1, 1, 0.26) solid;
+    border-radius: 10px;
+    border-top: 2.5px rgba(14, 1, 1, 0.459) solid;
+    height: 180px;
+    width: 500px;
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(35, 57, 85);
+    border-radius: 15px;
+    float: left;
+
+
+}
+
+.itm1 i {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(114, 21, 21, 0.705);
+    
+}
+
+.itm1 h2 {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    font-size: xx-large;
+}
+
+.itm1 p {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-size: large;
+    font-weight: 400;
+}
+
+
+
+.itm2 {
+    margin-top: 60px;
+    margin-left: 50px;
+    border-bottom: 2.5px rgba(14, 1, 1, 0.26) solid;
+    border-radius: 10px;
+    border-top: 2.5px rgba(14, 1, 1, 0.459) solid;
+    height: 180px;
+    width: 500px;
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(35, 57, 85);
+    border-radius: 15px;
+    float: left;
+
+
+}
+
+.itm2 i {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(114, 21, 21, 0.705);
+}
+
+.itm2 h2 {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    font-size: xx-large;
+}
+
+.itm2 p {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.itm3 {
+    margin-top: 60px;
+    margin-left: 50px;
+    border-bottom: 2.5px rgba(14, 1, 1, 0.26) solid;
+    border-radius: 10px;
+    border-top: 2.5px rgba(14, 1, 1, 0.459) solid;
+    height: 180px;
+    width: 500px;
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(35, 57, 85);
+    border-radius: 15px;
+    float: left;
+
+
+}
+
+.itm3 i {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(114, 21, 21, 0.705);
+}
+
+.itm3 h2 {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    font-size: xx-large;
+}
+
+.itm3 p {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-size: large;
+    font-weight: 400;
+}
+
+
+.itm4 {
+    margin-top: 60px;
+    margin-left: 50px;
+    border-bottom: 2.5px rgba(14, 1, 1, 0.26) solid;
+    border-radius: 10px;
+    border-top: 2.5px rgba(14, 1, 1, 0.459) solid;
+    height: 180px;
+    width: 500px;
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(35, 57, 85);
+    border-radius: 15px;
+    float: left;
+
+
+}
+
+.itm4 i {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(114, 21, 21, 0.705);
+}
+
+.itm4 h2 {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    font-size: xx-large;
+}
+
+.itm4 p {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.itm5 {
+    margin-top: 60px;
+    margin-left: 50px;
+    border-bottom: 2.5px rgba(14, 1, 1, 0.26) solid;
+    border-radius: 10px;
+    border-top: 2.5px rgba(14, 1, 1, 0.459) solid;
+    height: 180px;
+    width: 500px;
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(35, 57, 85);
+    border-radius: 15px;
+    float: left;
+
+
+}
+
+.itm5 i {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(114, 21, 21, 0.705);
+}
+
+.itm5 h2 {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    font-size: xx-large;
+}
+
+.itm5 p {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.itm6 {
+    margin-top: 60px;
+    margin-left: 50px;
+    border-bottom: 2.5px rgba(14, 1, 1, 0.26) solid;
+    border-radius: 10px;
+    border-top: 2.5px rgba(14, 1, 1, 0.459) solid;
+    height: 180px;
+    width: 500px;
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(35, 57, 85);
+    border-radius: 15px;
+    float: left;
+
+
+}
+
+.itm6 i {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(114, 21, 21, 0.705);
+}
+
+.itm6 h2 {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    font-size: xx-large;
+}
+
+.itm6 p {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.container3 div::after {
+    position: absolute;
+    content: "";
+
+    height: 0;
+    width: 0;
+
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    transition: 0.8s;
+    border-radius: 15px;
+
+    background-color: rgba(5, 32, 25, 0.445);
+    z-index: -1;
+}
+
+.container3 div:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.container3 div:hover {
+    color: rgb(250, 249, 247);
+}
+
+/************************************************************************************************************************** */
+.ds4 {
+    width: 100%;
+    height: 600px;
+
+    background-color: rgba(202, 184, 161, 0.144);
+}
+
+.sh4 {
+    padding-top: 110px;
+    padding-left: 160px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+
+
+}
+
+.sh4 p {
+    width: 100px;
+    height: 5px;
+    background-color: rgba(63, 21, 30, 0.568);
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-left: 85px;
+}
+
+.layer4 {
+    font-family: 'Kaushan Script', cursive;
+    color: rgba(15, 21, 29, 0.719);
+    padding-top: 50px;
+    padding-left: 150px;
+
+
+}
+
+.service-item-desc {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: -10px;
+    color: rgba(12, 51, 65, 0.829);
+
+
+}
+
+.service-list {
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 0.644);
+
+
+}
+
+.service-list i {
+    font-size: 16px;
+
+}
+
+.service-item-img {
+    float: right;
+    margin-right: 600px;
+    margin-top: -350px;
+    width: 400px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.103);
+    position: relative;
+
+}
+
+.img44 {
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    position: absolute;
+}
+
+.service-bullets {
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    text-align: center;
+    margin-left: 150px;
+    position: absolute;
+
+
+}
+
+.service-bullets li {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 120px 10px;
+}
+
+.service-bullets .active {
+    background-color: rgba(139, 0, 0, 0.678);
+}
+
+.service-bullets li:hover {
+    background-color: cadetblue;
+}
+
+
+
+
+
+
+/* *********************************************************************************************************************************** */
+
+.ds5 {
+    width: 100%;
+    height: 35vh;
+    background-image: url(../imges/pero-kalimero-9BJRGlqoIUk-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 30px;
+}
+
+.numbers-items {
+    position: absolute;
+    font-family: 'Kaushan Script', cursive;
+    color: rgba(15, 21, 29, 0.719);
+    font-size: larger;
+}
+
+.numbers-items div {
+    float: left;
+    margin-left: 300px;
+    margin-top: 6%;
+}
+
+.numbers-items span {
+    font-weight: bold;
+}
+
+/* ***********************************************************************************************************************************/
+
+.ds6 {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to bottom, rgba(119, 106, 90, 0.075), rgba(202, 184, 161, 0.144));
+
+}
+
+.sh6 {
+    padding-top: 30px;
+    padding-left: 160px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin-left: 700px;
+
+}
+
+
+.sh6 p {
+    width: 100px;
+    height: 5px;
+    background-color: rgba(63, 21, 30, 0.568);
+    border-radius: 10px;
+    margin-top: 3px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.d {
+    width: 430px;
+    height: 370px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 7%;
+    background-color: rgba(255, 255, 255, 0.637);
+    border: 2px solid rgba(26, 1, 1, 0.219);
+    border-radius: 30px;
+    position: relative;
+}
+
+.dd1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: rgba(8, 1, 1, 0.288);
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.p1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: rgba(5, 32, 58, 0.705);
+    transition: 0.8s;
+
+}
+
+.p2 {
+    text-align: center;
+    margin: 25% auto;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 300px;
+    transition: 0.8s;
+}
+
+.p3 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    color: rgba(5, 32, 58, 0.705);
+
+
+}
+
+.p4 {
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgba(5, 32, 58, 0.705);
+    font-weight: bold;
+
+}
+
+.b1 {
+    border: none;
+    width: 140px;
+    height: 40px;
+    color: rgba(54, 4, 4, 0.555);
+    background-color: rgba(211, 211, 211, 0.664);
+    font-family: 'Kaushan Script', cursive;
+    margin: 0 33%;
+    margin-top: 3px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.d::after {
+    content: "";
+    position: absolute;
+
+    width: 95%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+
+    transition: 0.8s;
+    visibility: hidden;
+
+    background-color: rgba(0, 5, 4, 0.795);
+    z-index: -1;
+
+}
+
+.d:hover::after {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+}
+
+.d:hover .p1 {
+    color: rgb(250, 249, 247);
+    font-weight: bolder;
+
+
+}
+
+.d:hover .p2 {
+    color: rgb(250, 249, 247);
+
+}
+
+
+
+/* *********************************************************************************************************************** */
+
+.sec7 {
+    width: 100%;
+    height: 600px;
+    background-image: url(../imges/jack-hamilton-AUgTvvQxDhg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    border-radius: 30px;
+    display: block;
+    
+
+}
+
+.sec7-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.185);
+
+}
+
+.sec7-contaner {
+    width: 80%;
+    height: 95%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+}
+
+.sec7-content {
+    width: 50%;
+    height: 100%;
+    padding-top: 100px;
+    float: left;
+
+}
+
+.sec7-img {
+    width: 100%;
+    margin: 10px 0px;
+    overflow: auto;
+}
+
+.sec7-img img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.sec7-img-title {
+    width: 60%;
+    height: 90px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.sec7-img-title h2 {
+    color: rgba(255, 255, 255, 0.904);
+}
+
+.sec7-img-title h3 {
+    color: rgba(255, 255, 255, 0.815);
+
+}
+
+.sec7-content-title {
+    font-weight: bolder;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+
+/* .problem {
+    height: 100%;
+    width: 100%;
+} */
+
+
+/* ****************************************************************************************************************************/
+
+.ds8 {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to bottom, rgba(119, 106, 90, 0.075), rgba(202, 184, 161, 0.144));
+    
+    overflow: auto;
+}
+
+.sh8 {
+    padding-top: 30px;
+    padding-left: 160px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin-left: 650px;
+
+}
+
+
+.sh8 p {
+    width: 100px;
+    height: 5px;
+    background-color: rgba(63, 21, 30, 0.568);
+    border-radius: 10px;
+    margin-top: 3px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.container8 {
+    width: 90%;
+
+
+    margin: auto;
+    overflow: auto;
+
+}
+
+.content8 {
+    width: 400px;
+    height: 400px;
+    margin-left: 130px;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.637);
+    border: 2px solid rgba(26, 1, 1, 0.219);
+    border-radius: 30px;
+    position: relative;
+    float: left;
+    padding: 35px;
+    text-align: center;
+
+}
+
+.img8 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    
+}
+
+.img8 {
+
+    width: 100%;
+    height: 75%;
+    margin: auto;
+    position: relative;
+   
+    border-bottom: 0px  solid;
+    border-radius: 0px;
+    border-top: 0px  solid;
+    
+}
+
+.content-overlay-img {
+    position: absolute;
+    top:0;
+    background-color: #0000005b;
+    width: 100%;
+   height: 100%;
+    margin-left: auto;
+    visibility: hidden;
+    
+   
+}
+
+.content-overlay-img a{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-left: auto;
+    display: block;
+    
+    border-radius: 1px;
+    background-color: aliceblue;
+    transition: 0.3s;
+    
+}
+
+.content-overlay-img i {
+    color: rgba(22, 17, 17, 0.822);
+    font-size: 30px;
+   
+
+}
+.info{
+    font-family: 'Kaushan Script', cursive;
+    color: rgba(22, 17, 17, 0.925);
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: 0.8s;
+}
+
+.content-overlay-img:hover{
+    visibility: visible;
+}
+
+
+
+.content8:hover .content-overlay-img{
+    visibility: visible;
+}
+
+.content8::after{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+
+    transition: 0.8s;
+    visibility: hidden;
+
+    background-color: rgba(0, 5, 4, 0.897);
+    z-index: -1;
+
+}
+
+.content8:hover::after{
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+}
+
+.content8:hover .info{
+    color: white;
+    
+}
+
+
+/* ****************************************************************************************************************************************** */
+
+.sh9 {
+    padding-top: 30px;
+    padding-left: 160px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin-left: 650px;
+
+}
+
+
+.sh9 p {
+    width: 100px;
+    height: 5px;
+    background-color: rgba(63, 21, 30, 0.568);
+    border-radius: 10px;
+    margin-top: 3px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+
+
+
+.sec9{
+    width: 100%;
+    height: 100vh;
+    padding-top: 45px;
+    
+    background-color: rgba(202, 184, 161, 0.144);
+    
+}
+
+
+.sec9-contaner{
+
+    width:90%;
+    height: 80%;
+   
+    margin: 10px auto;
+
+    overflow: auto;
+
+
+}
+.sec9-content{
+    margin-top: 100px;
+    height: 70%;
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+    color: rgb(43, 39, 39);
+    position: relative;
+    border-bottom: 2.5px rgba(14, 1, 1, 0.26) solid;
+    border-radius: 10px;
+    border-top: 2.5px rgba(14, 1, 1, 0.459) solid; 
+    
+    font-family: 'Kaushan Script', cursive;
+}
+.sec9-center-block{
+
+    margin: 0 5%;
+
+}
+.sec9-content img{
+    width: 260px;
+    height: 240px;
+    margin: 10px;
+    border-bottom: 2.5px rgba(88, 73, 73, 0.815) solid;
+    border-radius: 10px;
+    border-top: 2.5px rgba(78, 58, 58, 0.856) solid;
+  
+}
+
+.sec9-data-title{
+    margin-top: 10px;
+    font-family: 'Kaushan Script', cursive;
+}
+.sec9-data{
+    margin-top: 60px;
+}
+.sec9-data i{
+    font-size: 25px;
+}
+
+.sec9-title{
+    font-weight:600;
+}
+.sec9 a{
+    text-decoration: none;
+    color: darkred;
+}
+
+.sec9-content::after{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    transition: 0.8s;
+    visibility: hidden;
+
+    background-color: rgba(0, 0, 0, 0.205);
+    z-index: -1;
+}
+
+.sec9-content:hover::after{
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+
+}
+
+/* ********************************************************************************************************************************* */
+
+.container10{
+    width: 100%;
+    height: 40vh;
+   background-image: linear-gradient(to bottom, rgba(59, 150, 150, 0.178), rgba(202, 184, 161, 0.144));
+}
+
+
+.ds10 h4{
+    text-align: center;
+    margin-top:20px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 14px;
+}
+.fa-brands{
+    margin: auto;
+}
+
+.i10{
+    margin-top: 40px;
+    text-align: center;
+    
+    
+}
+
+.i10 i{
+    color: rgb(34, 5, 5);
+    font-size: 50px;
+}
+
+.sec10-icon{
+    text-align: center;
+    padding-top: 60px;
+    margin-right:60px ;
+
+}
+
+.sec10-icon i{
+    color: rgb(34, 5, 5);
+    font-size: 50px;
+}
+
